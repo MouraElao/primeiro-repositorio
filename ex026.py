@@ -1,0 +1,8 @@
+frase = input('Digite uma frase:').strip()
+frasem = frase.upper()
+frasev = frasem.count('A')
+frasep = frasem.find('A')
+fraseu = frasem.rfind('A')
+print('A letra A aparece {} vezes na frase ou palavra.'.format(frasev))
+print('A primeira posicição em que a letra A aparece é a posição {}'.format(frasep))
+print('A ultima posição em que aparece a letra A é a posição {}'.format(fraseu))
