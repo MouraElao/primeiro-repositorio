@@ -21,17 +21,3 @@ for i, l in enumerate(jogos):
     print(f' Jogo {i + 1}: {l}')
     #sleep(1)
 print('-=' * 5, ' BOA SORTE ', '-=' * 5)
-for c2 in range(0, 6):
-    n1 = randint(0, 60)
-    if n1 in v:
-        n1 = randint(0, 60)
-    v.append(n1)
-print(f'Os números vencedores foram: {v}')
-s1 = 0
-for c in range(0, jogos.__len__()):
-    if jogos[c] == v:
-        s1 = s1+1
-if s1 > 0:
-    print('Você ganhou!')
-else:
-    print('Você perdeu!')
