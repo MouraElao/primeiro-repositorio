@@ -19,5 +19,5 @@ for c in range(0, ns):
 print('-=' * 3, f' SORTEANDO {ns} JOGOS ', '-=' * 3)
 for i, l in enumerate(jogos):
     print(f' Jogo {i + 1}: {l}')
-    #sleep(1)
+    sleep(0.5)
 print('-=' * 5, ' BOA SORTE ', '-=' * 5)
